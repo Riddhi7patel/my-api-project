@@ -5,7 +5,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: 'password',
-  database: 'Mock_data'
+  database: 'mydatabase'
 });
 
 function getAllCharacters(callback) {
